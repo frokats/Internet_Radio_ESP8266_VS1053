@@ -13,8 +13,7 @@ https://www.ebay.com/itm/IIC-I2C-TWI-SP-I-Serial-Interface2004-20X4-Character-LC
 
 
 Wiring of VS1053 board (SPI connected in a standard way) to Wemos D1 Mini : <br>
-            D1 mini pin     Arduino pin<br>
-VS1053_CS       D8              15<br>
+VS1053_CS   D1 mini pin D8  Arduino pin 15<br>
 VS1053_DCS      D0              16<br>
 VS1053_DREQ D3  (Arduino pin 0)<br>
 MOSI        D7  (Arduino pin 13)<br>
@@ -22,3 +21,4 @@ MISO        D6  (Arduino pin 12)<br>
 SCK         D5  (Arduino pin 14)<br>
 XRST        RST (Arduino pin RST)<br>
 
+ 
