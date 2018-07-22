@@ -22,7 +22,8 @@ SCK         (D1 mini pin D5)  (Arduino pin 14)<br>
 XRST        (D1 mini pin RST)<br>
 
 Wiring of Serial I2C 20x4 LCD Display : <br>
-
+SDA  (D1 mini pin D2) (Arduino pin 4)<br>
+CLS  (D1 mini pin D1) (Arduino pin 5)<br>
 
 
 Librarys: <br>
@@ -32,5 +33,8 @@ Serial LCD Display : https://github.com/fdebrabander/Arduino-LiquidCrystal-I2C-l
 
 Tools:<br>
 ESP8266 sketch Data Uploader : https://github.com/esp8266/arduino-esp8266fs-plugin
+The above tool is very usefull to upload files in ESP8266 file system
 
+When upload the sketch to ESP8266 open your mobile phone browser and look at http://192.168.1.249<br>
+The web interface is focused on mobile phones. 
 
