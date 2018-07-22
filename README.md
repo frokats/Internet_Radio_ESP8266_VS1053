@@ -36,8 +36,9 @@ ESP8266 sketch Data Uploader : https://github.com/esp8266/arduino-esp8266fs-plug
 The above tool is very usefull to upload files in ESP8266 file system
 
 Tips:<br>
-1. In lines 18 and 19 add your AP SSID and Password. Then compile and upload the sketch to ESP8266<br>
-2. When upload the sketch to ESP8266 open your mobile phone browser and look at http://192.168.1.249 This address could change in line 85<br>
-3. The web interface is focused on mobile phones.<br>
+1. With tool Data Uploader, upload first the files in /data directory<br>
+2. In lines 18 and 19 add your AP SSID and Password. Then compile and upload the sketch to ESP8266<br>
+3. When upload the sketch to ESP8266 open your mobile phone browser and look at http://192.168.1.249 This address could change in line 85<br>
+4. The web interface is focused on mobile phones.<br>
 
 
