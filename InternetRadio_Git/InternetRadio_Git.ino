@@ -118,7 +118,7 @@ void setup()
   lcd.print(Version);
   delay(1000);
   lcd.setCursor(0,1);
-  lcd.print("General Telemetrics");
+  lcd.print("Initialization...");
   SPIFFS.begin();
   AllGenre=OptionAdd("genre");
   AllCountry=OptionAdd("countries");
