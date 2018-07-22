@@ -1,5 +1,5 @@
 # Internet_Radio_ESP8266_VS1053
-This is an Internet Radio reciever made with ESP8266 on Arduino enviroment
+This is an Internet Radio reciever made with ESP8266 and VS1053 on Arduino enviroment
 
 I use:<br> 
 ESP8266 D1 mini like this <br>
