@@ -19,6 +19,6 @@ VS1053_DREQ (D1 mini pin D3)  (Arduino pin 0)<br>
 MOSI        (D1 mini pin D7)  (Arduino pin 13)<br>
 MISO        (D1 mini pin D6)  (Arduino pin 12)<br>
 SCK         (D1 mini pin D5)  (Arduino pin 14)<br>
-XRST        RST (Arduino pin RST)<br>
+XRST        (D1 mini pin RST)<br>
 
  
