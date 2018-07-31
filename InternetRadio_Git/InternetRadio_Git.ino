@@ -1144,7 +1144,7 @@ String TimeForm( int Inhour, int Inmin, int Insec)
    {
      WhatIwillReturn=String(Inhour)+":";
    }
-   if (CMin<10)
+   if (Inmin<10)
    {
      WhatIwillReturn +="0"+String(Inmin)+":"; 
    }
