@@ -14,7 +14,7 @@
 
 //Variables Section
 const char* APssid     = "InternetRadio";
-const char* APpassword = "123445767890";
+const char* APpassword = "1234567890";
 const char* ssid     = "Your AP ssid";       //Set your AP ssid
 const char* password = "Your AP Password";   //Set your AP password
 int BassBoost=0;
@@ -61,7 +61,7 @@ String PreviusRadioCity;
 String PreviusRadioName;
 String PreviusRadioCountry;
 String ssid_temp="InternetRadio";
-String password_temp="123445767890";
+String password_temp="1234567890";
 String StartStop = "Stop";
 String DateString;
 String TimeString;
@@ -966,7 +966,7 @@ void handleWifi()
      HttpString +="<input style='font-size:100%' type='submit' value='Save'></form>";
      HttpString +="<p style='font-size:350%;'>Station Settings</p>";
      HttpString +="<form action='/StSettings'; style='font-size:300%; color:red;';>Station SSID:<br><input style='font-size:100%' type='text' name='StSSID' value='InternetRadio'><br>";
-     HttpString +="Station Password:<br><input style='font-size:100%' type='text' name='StPass' value='123445767890'>";
+     HttpString +="Station Password:<br><input style='font-size:100%' type='text' name='StPass' value='1234567890'>";
      HttpString +="<input style='font-size:100%' type='submit' value='Save'></form><br><br><br>";
      HttpString +="<form method='post' action='/Settings'><p></p><br><br><br>";
      HttpString +="<input class='button' type='submit' style='font-size:450%; float:right; color:red' value='Return'></form>";
